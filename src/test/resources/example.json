@@ -1,0 +1,13 @@
+{"students":
+[
+    {
+        "gender": "female",
+        "age": 19,
+        "grant": true
+    } ,
+    {
+        "name": "Piter",
+        "country": "Russia"
+    }
+]
+}
