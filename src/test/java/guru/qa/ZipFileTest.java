@@ -27,7 +27,7 @@ public class ZipFileTest {
             if (entry.getName().contains("pdf")) {
                 PDF pdf = new PDF(zis);
                 assertThat(pdf.text).contains("test");
-                System.out.println("PDF Test Success");
+                System.out.println("PDF Test Success!");
             } else if (entry.getName().contains("xls")) {
                 XLS xls = new XLS(zis);
                 assertThat(
